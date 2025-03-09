@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Miroslav Cvetković's portfolio" />
     <meta name="author" content="Miroslav Cvetković" />
+    <meta name="keywords" content="Fullstack Developer, Web Developer, Miroslav Cvetković, Portfolio, MERN, PERN, PDRP, Python, Django, Flask, React, Node.js, Express.js, PostgreSQL, MongoDB" />
+    <meta property="og:title" content="cvemir369's Portfolio" />
+    <meta property="og:description" content="Miroslav Cvetković's portfolio showcasing Fullstack Web & App Development projects." />
+    <meta property="og:image" content="images/home1.jpg" />
     <title>cvemir369's portfolio</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico?" />
     <link href="css/glightbox.css" rel="stylesheet" />
@@ -16,62 +20,57 @@
 
   <body>
     <div class="body-container">
-      <div id="home">
-        <header>
-          <div class="header-top">
-            <img src="images/profile-mask.jpg" alt="Photo of Miroslav" />
-            <h2>cvemir369's portfolio</h2>
-          </div>
-          <nav class="navbar">
-            <a class="nav-link active" aria-current="page" href="index.html"
-              >Home</a
-            >
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-            <a class="nav-link" href="contact.html">Contact</a>
-          </nav>
-        </header>
-      </div>
-      <div>
+      <!-- Header Section -->
+      <header id="home">
+        <div class="header-top">
+          <img src="images/profile-mask.jpg" alt="Photo of Miroslav" />
+          <h2>cvemir369's portfolio</h2>
+        </div>
+        <nav class="navbar">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <!-- Main Content -->
+      <main>
         <div class="main-img">
           <img src="images/home1.jpg" alt="Photo of Miroslav Cvetković" />
         </div>
         <section>
           <h1>Welcome to my site!</h1>
           <p>
-            My name is <b>Miroslav Cvetković</b>. I'm born in Niš, Serbia.<br />
+            My name is <strong>Miroslav Cvetković</strong>. I'm born in Niš, Serbia.<br />
             Currently living in Weilheim in Oberbayern, Germany.<br />
-            I'm a <b>Fullstack Web & App Developer</b>.<br />
+            I'm a <strong>Fullstack Web & App Developer</strong>.<br />
             I love playing guitar 🎸<br />
             I've been freelancing full-time for 10+ years.<br />
-I began my career as a freelance Audio & Video Producer, where I mastered the art of recording, editing, mixing, and mastering. This role instilled in me a strong attention to detail, creativity, and a commitment to delivering exceptional quality—all of which I’ve carried into my career as a Full-Stack Developer.<br />
-
-Today, I am a customer-focused developer with expertise in both front-end and back-end technologies - MERN/PERN/PDRP Stack. My technical skill set includes Python (Django, Flask), JavaScript (React, Node.js, Express.js), HTML5, CSS, and database management with SQL (PostgreSQL) and NoSQL (MongoDB). I’m also proficient in using Git and GitHub for version control, as well as frameworks like Tailwind CSS for creating visually appealing, responsive designs.<br />
-
-Passionate about leveraging technology to solve real-world problems, I’m always eager to collaborate on innovative projects that push boundaries and create meaningful impact.
-            <b
-              ><i
-                >Full-Stack Web App Developer · MERN · PERN · PDRP · Python, Django, Flask · React, Node.js, Express.js, HTML/CSS, JavaScript · PostgreSQL & MongoDB · Gen AI Integration · Driving Scalable Web Solutions</i
-              >.</b
-            ><br />
+            I began my career as a freelance Audio & Video Producer, where I mastered the art of recording, editing, mixing, and mastering. This role instilled in me a strong attention to detail, creativity, and a commitment to delivering exceptional quality—all of which I’ve carried into my career as a Full-Stack Developer.<br />
+            Today, I am a customer-focused developer with expertise in both front-end and back-end technologies - MERN/PERN/PDRP Stack. My technical skill set includes Python (Django, Flask), JavaScript (React, Node.js, Express.js), HTML5, CSS, and database management with SQL (PostgreSQL) and NoSQL (MongoDB). I’m also proficient in using Git and GitHub for version control, as well as frameworks like Tailwind CSS for creating visually appealing, responsive designs.<br />
+            Passionate about leveraging technology to solve real-world problems, I’m always eager to collaborate on innovative projects that push boundaries and create meaningful impact.
+            <strong><em>Full-Stack Web App Developer · MERN · PERN · PDRP · Python, Django, Flask · React, Node.js, Express.js, HTML/CSS, JavaScript · PostgreSQL & MongoDB · Gen AI Integration · Driving Scalable Web Solutions</em>.</strong><br />
             Click below for more details.
           </p>
         </section>
         <div class="btn-group">
-          <p><a href="portfolio.html" class="btn">Go to Portfolio</a></p>
-          <p><a href="contact.html" class="btn">Contact me</a></p>
+          <a href="portfolio.html" class="btn">Go to Portfolio</a>
+          <a href="contact.html" class="btn">Contact me</a>
         </div>
-        <div>
-          <footer>
-            <p>
-              cvemir369's portfolio website. Made with HTML, CSS &
-              <a href="https://biati-digital.github.io/glightbox/">Glightbox</a>
-              by <a href="mailto:cvemir369@gmail.com">Miroslav Cvetković</a>.
-            </p>
-          </footer>
-        </div>
-      </div>
+      </main>
+
+      <!-- Footer Section -->
+      <footer>
+        <p>
+          cvemir369's portfolio website. Made with HTML, CSS &
+          <a href="https://biati-digital.github.io/glightbox/">Glightbox</a>
+          by <a href="mailto:cvemir369@gmail.com">Miroslav Cvetković</a>.
+        </p>
+      </footer>
     </div>
-    <script src="js/glightbox.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="js/glightbox.min.js" defer></script>
     <script>
       var lightboxVideo = GLightbox({
         selector: ".glightbox3",
