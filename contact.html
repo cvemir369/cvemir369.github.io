@@ -69,16 +69,20 @@
         <p><a href="index.html" class="btn">Back to Home</a></p>
       </div>
       <div>
-        <footer>
-          <p>
-            cvemir369's portfolio website. Made with HTML, CSS &
-            <a href="https://biati-digital.github.io/glightbox/">Glightbox</a>
-            by <a href="mailto:cvemir369@gmail.com">Miroslav Cvetković</a>.
-          </p>
-        </footer>
-      </div>
+        <!-- Footer Section -->
+      <footer>
+  <p>
+    cvemir369's portfolio website. Made with 🩶.
+  </p>
+  <p>© <span id="current-year"></span> All rights reserved.</p>
+</footer>
     </div>
-    <script src="js/glightbox.min.js"></script>
+
+    <!-- Scripts -->
+<script>
+  const currentYear = new Date().getFullYear(); document.getElementById('current-year').textContent = currentYear;
+</script>
+    <script src="js/glightbox.min.js" defer></script>
     <script>
       var lightboxVideo = GLightbox({
         selector: ".glightbox3",
