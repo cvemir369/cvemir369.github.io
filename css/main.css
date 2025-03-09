@@ -277,8 +277,8 @@ section ul li a:hover {
   text-shadow: 0px 0px 10px #ffffff50;
 }
 
-.tags {
-  font-size: 16px;
+section p .tags {
+  font-size: 12px;
 }
 
 .contact-photo {
