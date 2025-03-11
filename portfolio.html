@@ -9,6 +9,9 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico?" />
     <link href="css/glightbox.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+    </style>
   </head>
 
   <body>
@@ -32,53 +35,6 @@
         <div class="main-img">
           <img src="images/home2.jpg" alt="Photo of Miroslav Cvetković" />
         </div>
-        <h1>Freelancing Experience</h1>
-
-        <div class="pimg-container">
-          <div class="pimg">
-            <a
-              class="glightbox3"
-              data-gallery="gallery"
-              href="images/freelance_1.jpg"
-            >
-              <img
-                class="zoomable"
-                src="images/freelance_1.jpg"
-                alt="Freelancing Experience #1"
-              />
-            </a>
-          </div>
-
-          <div class="pimg">
-            <a
-              class="glightbox3"
-              data-gallery="gallery"
-              href="images/freelance_2.jpg"
-            >
-              <img
-                class="zoomable"
-                src="images/freelance_2.jpg"
-                alt="Freelancing Experience #2"
-              />
-            </a>
-          </div>
-        </div>
-
-        <div class="list-db-div">
-          <p>
-            I've been working as a freelancer for 10+ years in the multimedia
-            field<br />
-            and 3 years in the IT field as a Python Backend Developer (Django &
-            Flask).<br />
-            My main freelancing platforms are Fiverr and Upwork.<br />
-            I've been a long-time user of former Elance and oDesk (merged into
-            Upwork in 2015).<br />
-            I've completed thousands of jobs successfully, with 1500+ positive
-            reviews.
-          </p>
-        </div>
-      </section>
-      <br />
       <section>
         <h1>Darts Score Django App</h1>
 
@@ -210,7 +166,7 @@
       </section>
       <br />
 
-      <section>
+      <!-- <section>
         <h1>Todo Flask App</h1>
 
         <div class="pimg-container">
@@ -265,6 +221,54 @@
             SQLite3.<br />
             App includes full CRUD functionality managed with Flask-SQLAlchemy,
             Flask-Login, etc.
+          </p>
+        </div>
+      </section> -->
+      <!-- <br /> -->
+
+      <h1>Freelancing Experience</h1>
+
+        <div class="pimg-container">
+          <div class="pimg">
+            <a
+              class="glightbox3"
+              data-gallery="gallery"
+              href="images/freelance_1.jpg"
+            >
+              <img
+                class="zoomable"
+                src="images/freelance_1.jpg"
+                alt="Freelancing Experience #1"
+              />
+            </a>
+          </div>
+
+          <div class="pimg">
+            <a
+              class="glightbox3"
+              data-gallery="gallery"
+              href="images/freelance_2.jpg"
+            >
+              <img
+                class="zoomable"
+                src="images/freelance_2.jpg"
+                alt="Freelancing Experience #2"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="list-db-div">
+          <p>
+            I've been working as a freelancer for 10+ years in the multimedia
+            field<br />
+            and 3 years in the IT field as a Python Backend Developer (Django &
+            Flask).<br />
+            My main freelancing platforms are Fiverr and Upwork.<br />
+            I've been a long-time user of former Elance and oDesk (merged into
+            Upwork in 2015).<br />
+            I've completed thousands of jobs successfully, with 1500+ positive
+            reviews.
           </p>
         </div>
       </section>
@@ -456,7 +460,7 @@
         <!-- Footer Section -->
       <footer>
   <p>
-    cvemir369's portfolio website. Made with 🩶.
+    cvemir369's portfolio website. Made with 🩶
   </p>
   <p>© <span id="current-year"></span> All rights reserved.</p>
 </footer>
@@ -466,7 +470,7 @@
 <script>
   const currentYear = new Date().getFullYear(); document.getElementById('current-year').textContent = currentYear;
 </script>
-    <script src="js/glightbox.min.js" defer></script>
+    <script src="js/glightbox.min.js"></script>
     <script>
       var lightboxVideo = GLightbox({
         selector: ".glightbox3",
