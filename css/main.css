@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 html,
 body,
 div,
@@ -75,8 +76,6 @@ video {
   vertical-align: baseline;
   background: transparent;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 body {
   line-height: 1;
@@ -156,8 +155,8 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #cccccc;
-  margin: 10rem 4rem;
+  border-top: 1px solid #cccccc33;
+  margin: 2rem 4rem;
   padding: 0;
 }
 
@@ -182,6 +181,14 @@ select {
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 1280px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1280px) {
+  .body-container {
+    text-align: center;
+  }
 }
 
 body {
@@ -277,6 +284,7 @@ header {
 .tech-stack {
   font-size: medium;
   line-height: normal;
+  text-align: center;
 }
 
 section {
@@ -288,7 +296,7 @@ section {
 }
 
 section p {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   line-height: 30px;
   font-weight: 300;
@@ -317,24 +325,29 @@ section h3 {
 }
 
 section h5 {
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   font-weight: 300;
   padding-bottom: 15px;
 }
 
 h6 {
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   font-weight: 300;
   padding: 0px;
 }
 
+section address {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
 section address h5 {
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
-  padding-bottom: 15px;
   font-style: normal;
 }
 
